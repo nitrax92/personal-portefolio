@@ -1,0 +1,31 @@
+
+body{
+    background-color: #56797F;
+
+}
+
+#section1{
+    font-size: xx-large;
+    color: #FCFBDC;
+}
+
+#section1, a{
+    color: #FCFBDC;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+.centered {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+#section2{
+    background-color: lightblue;
+}
