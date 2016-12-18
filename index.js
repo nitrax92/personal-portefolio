@@ -15,6 +15,8 @@ app.use(express.static(__dirname + '/public'));
 
 // Fullpage.js localization.
 app.use('/static', express.static(__dirname + '/node_modules/fullpage.js/dist'));
+//JQuery.js localization
+app.use('/static', express.static(__dirname + '/node_modules/jquery/dist'));
 
 
 
