@@ -15,10 +15,10 @@ app.use(express.static(__dirname + '/public'));
 
 // Fullpage.js localization.
 app.use('/static', express.static(__dirname + '/node_modules/fullpage.js/dist'));
-//JQuery.js localization
+// JQuery.js localization
 app.use('/static', express.static(__dirname + '/node_modules/jquery/dist'));
-
-
+// Lightbox
+app.use('/static/lightbox2', express.static(__dirname + '/node_modules/lightbox2/dist'));
 
 
 app.set('views', __dirname + '/views');
