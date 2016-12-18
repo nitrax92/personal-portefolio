@@ -11,16 +11,20 @@ body{
 }
 
 #mainsection h1{
-    color: #FF3800;
+    color: #FF3800; /* FF972C */
 }
 
 #projectsection{
-    background-color: #849696;
+    background-color: #232D33;
 }
 
 
 #aboutsection{
     background-color: #17384C;
+}
+
+#aboutsection h1{
+    color: #FF3800;
 }
 
 h1{
@@ -69,7 +73,7 @@ h1{
     display: flex;
     margin: 60px;
     border: 1px solid black;
-    background-color: lightgrey;
+    background-color: #FEFFFB;
     flex-direction: row;
     flex-wrap: wrap;
     /*justify-content: space-between; */
@@ -83,23 +87,43 @@ h1{
 .slidecontent > div:first-child
 {
     flex: 0 1 100%;
-    border: 3px solid pink;
+    /*border: 3px solid pink; */
     /*height: 20%;*/
+}
+
+#border-bot{
+    border-bottom: 3px solid black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
 .slidecontent > div:nth-child(2)
 {
-    flex: 0 1 29%;
-    border: 1px solid black;
+    flex: 0 1 25%;
+    /*border: 1px solid black;*/
 }
 .slidecontent > div:nth-child(3)
 {
-    flex: 0 1 70%;
-    border: 1px solid blue;
+    flex: 0 1 60%;
+    /*border: 1px solid blue; */
 }
 
 .slidecontent .description{
-    border: 1px solid black;
+    /*border: 1px solid black; */
+    padding: 50px;
+}
+
+.slidecontent .description li{
+    font-size: x-large;
+}
+.slidecontent .description h4{
+    font-size: x-large;
+}
+
+.slidecontent .description h2{
+    font-size: xx-large;
 }
 
 /* ------------TEST_--------------- */
