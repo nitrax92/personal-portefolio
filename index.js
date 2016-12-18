@@ -13,6 +13,12 @@ app.set('port', (process.env.PORT || 5000));
 // Where root (server) is located. Needed when including stylesheets and scripts in jade files (template language)
 app.use(express.static(__dirname + '/public'));
 
+// Fullpage.js localization.
+app.use('/static', express.static(__dirname + '/node_modules/fullpage.js/dist'));
+
+
+
+
 app.set('views', __dirname + '/views');
 // Template engine
 app.set('view engine', 'jade');

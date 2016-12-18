@@ -1,11 +1,42 @@
 extends layout
 
+
 block sitestyle
     link(href='stylesheets/indexstyle.css', rel='stylesheet')
 
 block body
 
-    .centered
-        #section1
-            h1 Martin Engen
-            p #[a(href="https://github.com/nitrax92") Git] #[a(href="#prosjekter") Prosjekter] #[a(href="#kontakt") Kontakt]
+    #fullpage
+        .section#mainsection
+            include pages/frontpage
+
+
+
+        .section#projectsection
+            h1#projectTitle Prosjekter
+            .slide
+                .slidecontent
+
+                    include projects/rustavrak
+            .slide
+                .slidecontent
+                    include projects/dfs_dagbok
+            .slide
+                .slidecontent
+                    include projects/hashing
+            .slide
+                .slidecontent
+                    include projects/scala_range
+
+        .section#aboutsection
+            include pages/about
+
+
+    script.
+        $(document).ready(function(){
+            $('#fullpage').fullpage({
+                scrollBar: true,
+                verticalCentered:true,
+                anchors: ['topp', 'prosjekter', 'om']
+            });
+        });
