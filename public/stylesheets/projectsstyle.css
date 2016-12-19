@@ -11,8 +11,8 @@
 
 .projectcontent{
     color: #232D33;
-    background-color: #849696;
-    border: 5px solid red;
+    background-color: #FEFFFB;
+    /*border: 5px solid red;*/
     margin: 60px;
 
 }
@@ -27,32 +27,33 @@
 
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
-
-    border: 5px solid white;
+    font-size: larger;
+    /*border: 5px solid white; */
 }
 
 #details{
-    padding: 10px;
-    border: 5px solid indianred;
+    padding-left: 70px;
+
+    /*border: 5px solid indianred; */
     flex: 1;
     min-width: 500px;
 }
 
 #images{
     padding:10px;
-    border: 5px solid indianred;
+    /*border: 5px solid indianred; */
     flex: 2;
 }
 
 #description{
     padding: 10px;
-    border: 5px solid indigo;
+    /*border: 5px solid indigo; */
 }
 
 #content{
     padding: 10px;
-    border: 5px solid indianred;
-    flex: 2;
+    /*border: 5px solid indianred; */
+    flex: 3;
 }
 
 #content img{
