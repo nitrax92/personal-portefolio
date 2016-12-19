@@ -1,9 +1,46 @@
 
-.header
+extends ../projectlayout
+block projectTitle
+    h1 Rusta Vrak Bilutleige
+
+block details
+        h4 Back-End
+        ul
+            li Python (2.7.x)
+            li Django (1.10.x)
+            li MySQL (5.6)
+            li Google App Engine (Google Cloud Platform)
+
+        h4 Front-End
+        ul
+            li Bootstrap
+            li JQuery
+            li Lightbox
+
+
+block description
+    p Nettside for bedriften Rusta Vrak Bilutleige. <br> Brukes som bestillingsverkøy for kunder og oversiktsverkøy for bedriften. <br>
+    b Status: Klar til bruk. <br>
+    b Link: #[a(href="http://dfs-dagbok.appspot.com/") Rusta Vrak Bilutleige]
+
+block images
+    h3 Bilder
+    a(href="http://i.imgur.com/TWuuHgj.png" data-lightbox="rv" data-title="Rusta Vrak Bilutleige Forside")
+        img(src='images/projects/rustavrak/rv_fp_min.png' width='250px')
+
+    a(href="http://i.imgur.com/vz2QrwW.png" data-lightbox="rv" data-title="Rusta Vrak Bilutleige Liste over biler etter søk på dato.")
+        img(src='images/projects/rustavrak/rv_list_min.png' width='250px')
+
+
+
+
+
+
+//.header
     h1 Rusta Vrak Bilutleige
     #border-bot
 
-.description
+//.description
     h2 Detaljer
     h4 Back-End
     ul
@@ -19,7 +56,7 @@
         li Lightbox
 
 
-.content
+//.content
     p Nettside for bedriften Rusta Vrak Bilutleige. <br> Brukes som bestillingsverkøy for kunder og oversiktsverkøy for bedriften.
     a(href="images/projects/rustavrak/rv_frontpage.PNG" data-lightbox="rv" data-title="Rusta Vrak Forside")
         img(src= "images/projects/rustavrak/rv_frontpage.PNG" width="30%" height="30%")

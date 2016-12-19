@@ -1,0 +1,49 @@
+#testslide{
+    text-align: center;
+    background-color: #849696;
+    width: 70%;
+    height: 70%;
+}
+
+
+#testslide #flexboxes{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+
+    border: 3px solid mediumspringgreen;
+}
+
+#testslide #flexboxes #details_test{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+
+    border: 3px solid mediumspringgreen;
+}
+#testslide #flexboxes #left, #testslide #flexboxes #right{
+    flex: 1;
+}
+
+#testslide h1{
+
+}
+
+#details_test{
+
+}
+
+#description_test{
+
+}
+

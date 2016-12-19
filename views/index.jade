@@ -9,6 +9,9 @@ block sitestyle
     // Projects
     link(href='stylesheets/projectsstyle.css', rel='stylesheet')
 
+    // Test Slide
+    link(href='stylesheets/project_teststyle.css', rel='stylesheet')
+
 block body
 
     #fullpage
@@ -19,9 +22,19 @@ block body
 
         .section#projectsection
             //h1#projectTitle Prosjekter
+
+
+            h1#projectTitle Mine Prosjekter
+
             .slide
                 include projects/dfs_dagbok
+
             .slide
+                include projects/rustavrak
+
+            //.slide#testslide
+                include projects/project_test
+            //.slide
                 .slidecontent
                     include projects/rustavrak
             .slide

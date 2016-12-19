@@ -1,3 +1,4 @@
+/*
 #floating{
     text-align: center;
     position: absolute;
@@ -8,12 +9,21 @@
     border: 3px solid #FF972C;
     border-radius: 2px;
 }
+*/
 
+#projectTitle{
+    color: #FEFFFB;
+    position:absolute;
+    top: 30px;
+    width:100%;
+    text-align:center;
+}
 .projectcontent{
     color: #232D33;
     background-color: #FEFFFB;
-    /*border: 5px solid red;*/
+
     margin: 60px;
+    padding: 0;
 
 }
 
@@ -59,3 +69,4 @@
 #content img{
     margin: 10px;
 }
+
