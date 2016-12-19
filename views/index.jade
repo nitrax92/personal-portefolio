@@ -2,7 +2,12 @@ extends layout
 
 
 block sitestyle
+    //Local CSS styling
+
     link(href='stylesheets/indexstyle.css', rel='stylesheet')
+
+    // Projects
+    link(href='stylesheets/projectsstyle.css', rel='stylesheet')
 
 block body
 
@@ -15,14 +20,12 @@ block body
         .section#projectsection
             //h1#projectTitle Prosjekter
             .slide
+                include projects/dfs_dagbok
+            .slide
                 .slidecontent
                     include projects/rustavrak
             .slide
-                .slidecontent
-                    include projects/dfs_dagbok
-            .slide
-                .slidecontent
-                    include projects/hashing
+                include projects/hashing
             .slide
                 .slidecontent
                     include projects/scala_range
