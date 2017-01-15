@@ -1,0 +1,40 @@
+extends ../projectlayout
+
+
+block projectTitle
+    h1 My To Do
+
+block details
+        h4 Back-End
+        ul
+            li Node.js
+            li Express
+            li Heroku
+            li Mongodb
+
+        h4 Front-End
+        ul
+            li Angular
+            li JavaScript
+            li Material Design Lite
+
+
+
+block description
+    p Prosjekt for å teste og lære grunnleggende Angular. <br> Drevet i front-end, og benytter API kall ved første GET request, og når en trykker på Save Changes vil databasen bli oppdatert til å reflektere Lists og tilhørende Tasks i webappen. Ved senere anledning skal et brukersystem bli introdusert.
+
+    //b Status: Klar til bruk. <br>
+    b Link: #[a(href="https://martinstodo.herokuapp.com/") My To Do List]
+
+block images
+    h3 Bilder
+    a(href="http://i.imgur.com/V2MOfzn.png" data-lightbox="todo" data-title="My To Do List full skjerm")
+        img(src='images/projects/todo/full_screen_min.jpg' width='250px')
+
+    a(href="http://i.imgur.com/r8R01y4.png" data-lightbox="todo" data-title="Nedtrekkbar vindu for lister")
+        img(src='images/projects/todo/lists_min.jpg' width='250px')
+
+    a(href="http://i.imgur.com/A9hR0HW.png" data-lightbox="todo" data-title="Ny Oppgave")
+        img(src='images/projects/todo/new_task_min.jpg' width='250px')
+
+
